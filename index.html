@@ -3,72 +3,72 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Luxuriös Sparen</title>
+<title>Clever Sparen – Vergleiche & Reiseangebote</title>
 
 <style>
 body{
 margin:0;
 font-family:Arial,sans-serif;
-background:#111;
-color:white;
-text-align:center;
+background:#f5f7fb;
+color:#333;
 }
 
 header{
-background:#000;
-padding:25px;
-border-bottom:3px solid gold;
+background:linear-gradient(135deg,#003366,#0059b3);
+color:white;
+text-align:center;
+padding:70px 20px;
 }
 
-h1{
-color:gold;
+header h1{
 font-size:48px;
-margin-top:60px;
+margin-bottom:10px;
 }
 
-p{
+header p{
 font-size:22px;
 }
 
 .button{
 display:inline-block;
-margin-top:30px;
-padding:18px 40px;
-background:gold;
-color:black;
-font-weight:bold;
+margin-top:25px;
+padding:15px 35px;
+background:#ffb300;
+color:#fff;
 text-decoration:none;
-border-radius:40px;
+border-radius:8px;
+font-weight:bold;
 }
 
-.hero{
-padding:120px 20px;
-background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6));
+.container{
+max-width:1200px;
+margin:auto;
+padding:40px 20px;
 }
 
 .cards{
-display:flex;
-justify-content:center;
-flex-wrap:wrap;
-gap:25px;
-padding:60px 20px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
 }
 
 .card{
-width:280px;
-background:#222;
+background:white;
+border-radius:12px;
 padding:25px;
-border-radius:20px;
+box-shadow:0 4px 15px rgba(0,0,0,0.15);
+text-align:center;
 }
 
 .card h2{
-color:gold;
+color:#0059b3;
 }
 
 footer{
+background:#003366;
+color:white;
+text-align:center;
 padding:30px;
-background:#000;
-color:#999;
 margin-top:40px;
 }
 </style>
@@ -78,41 +78,52 @@ margin-top:40px;
 <body>
 
 <header>
-<h2>Luxuriös Sparen</h2>
+<h1>💰 Clever Sparen</h1>
+<p>Vergleiche Reisen, Versicherungen, Strom, Gas, Mobilfunk und vieles mehr.</p>
+
+<a href="#" class="button">Jetzt Angebote entdecken</a>
 </header>
 
-<div class="hero">
-<h1>Luxuriös sparen</h1>
-
-<p>Reisen · Hotels · Strom · Gas · Versicherungen · DSL</p>
-
-<a class="button" href="#">Jetzt Angebote entdecken</a>
-
-</div>
+<div class="container">
 
 <div class="cards">
 
 <div class="card">
-<h2>✈ Reisen</h2>
-<p>Die schönsten Urlaubsangebote entdecken.</p>
+<h2>✈️ Reisen</h2>
+<p>Finde günstige Urlaubsangebote weltweit.</p>
+</div>
+
+<div class="card">
+<h2>🏨 Hotels</h2>
+<p>Vergleiche tausende Hotels zum besten Preis.</p>
+</div>
+
+<div class="card">
+<h2>🚗 Mietwagen</h2>
+<p>Spare bei der nächsten Reise mit günstigen Mietwagen.</p>
 </div>
 
 <div class="card">
 <h2>⚡ Strom & Gas</h2>
-<p>Jetzt Tarife vergleichen und sparen.</p>
+<p>Wechsle den Anbieter und spare jedes Jahr Geld.</p>
 </div>
 
 <div class="card">
-<h2>🛡 Versicherungen</h2>
-<p>Passende Tarife bequem vergleichen.</p>
+<h2>📱 Handy & DSL</h2>
+<p>Die besten Tarife auf einen Blick.</p>
+</div>
+
+<div class="card">
+<h2>💳 Finanzen</h2>
+<p>Konten, Kreditkarten und weitere Finanzangebote vergleichen.</p>
+</div>
+
 </div>
 
 </div>
 
 <footer>
-
-© 2026 Luxuriös Sparen
-
+© 2026 Clever Sparen – Alle Rechte vorbehalten.
 </footer>
 
 </body>
